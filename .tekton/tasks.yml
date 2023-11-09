@@ -34,7 +34,7 @@ spec:
           rm -rf "${WORKSPACE_SOURCE_PATH}"/..?*
         fi
 ---
-apiVersion: {placeholder}
+apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
   name: nose
